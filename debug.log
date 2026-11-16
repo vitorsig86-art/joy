@@ -1,0 +1,10 @@
+[1116/175205.876:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x19840060d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175205.965:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x19840060d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175206.038:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x19840060d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175206.086:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x19840060d000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1116/175209.309:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x19840060d000] GL_INVALID_OPERATION: glBlitFramebuffer: Blit feedback loop: the read and draw framebuffers are the same.
+[1116/175209.476:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x19840060d000] GL_INVALID_OPERATION: glBlitFramebuffer: Blit feedback loop: the read and draw framebuffers are the same.
+[1116/175244.875:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x6dec00626800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175244.966:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x6dec00626800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175245.074:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x6dec00626800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1116/175245.117:ERROR:gpu\command_buffer\service\gl_utils.cc:431] [.WebGL-0x6dec00626800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
