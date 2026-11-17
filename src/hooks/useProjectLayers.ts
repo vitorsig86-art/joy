@@ -152,7 +152,7 @@ export function useProjectLayers(viewer: Viewer | null, project: ProjectConfig, 
                 unsubscribe.push(fallback.imageryProvider.errorEvent.addEventListener((error) => {
                   if (!cancelled) handleTileError(error);
                 }));
-                console.warn("Bing Aerial unavailable · OpenStreetMap fallback");
+                console.warn(`${definition.name} unavailable · OpenStreetMap fallback`);
                 setStatuses((current) => ({ ...current, [definition.id]: "fallback" }));
                 viewer.scene.requestRender();
                 return;

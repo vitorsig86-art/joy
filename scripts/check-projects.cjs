@@ -118,9 +118,14 @@ class GeoJsonDataSource {
   }
 }
 let imageryStyle;
+let imageryAssetId;
 let failImagery = false;
 const mockCesium = {
   ...cesium, ImageryLayer, UrlTemplateImageryProvider, Cesium3DTileset, GeoJsonDataSource,
+  IonImageryProvider: { fromAssetId: async (assetId) => {
+    if (failImagery) throw new Error("Unavailable");
+    imageryAssetId = assetId; return { type: "ion-imagery", assetId };
+  } },
   createWorldImageryAsync: async ({ style }) => {
     if (failImagery) throw new Error("Unavailable");
     imageryStyle = style; return { type: "world-imagery" };
@@ -138,7 +143,8 @@ async function main() {
     const source = configured.source;
     if (source.format === "ion-world-imagery") {
       assert.ok(loaded instanceof ImageryLayer);
-      assert.equal(imageryStyle, cesium.IonWorldImageryStyle.AERIAL_WITH_LABELS);
+      if (source.assetId === undefined) assert.equal(imageryStyle, cesium.IonWorldImageryStyle.AERIAL_WITH_LABELS);
+      else assert.equal(imageryAssetId, source.assetId);
       failImagery = true;
       const fallback = await loader.loadLayer(configured);
       failImagery = false;

@@ -1,0 +1,1397 @@
+{
+  "date": "2026-11-16",
+  "state": "Arquivos preparados para upload manual; integração e validação de URLs/CORS pendentes.",
+  "sourceDirectory": "C:/Users/Usuario/Desktop/TRABALHO JOY/webgis/geojson",
+  "outputDirectory": "C:\\Users\\Usuario\\Desktop\\projetos\\joy-webgis\\r2-upload\\geojson",
+  "sourceCrs": "CRS84 declarado (longitude/latitude WGS84, graus); não houve reprojeção.",
+  "verticalReference": "Não informada. Z das simulações macro preservado; usar ignoreAltitude para drapeamento somente na cópia de renderização. Cotas das curvas preservadas como atributos da fonte; sem transformação de datum.",
+  "geometryValidation": {
+    "tool": "Shapely 2.1.2 / GEOS 3.14.1",
+    "result": "Todas as 515 feições verificadas: geometria não vazia e válida. Validade individual não comprova topologia entre polígonos."
+  },
+  "files": [
+    {
+      "file": "clima_ibge.geojson",
+      "sourceSha256": "cd4f0938dd31266e57497e68f053a053d497a88b619c035d8083ffd795b0f82a",
+      "outputSha256": "cd4f0938dd31266e57497e68f053a053d497a88b619c035d8083ffd795b0f82a",
+      "sourceBytes": 6282,
+      "outputBytes": 6282,
+      "features": 1,
+      "coordinates": 124,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.89072992845102,
+        -23.28922577086047,
+        -44.01618025975034,
+        -21.914634678742487
+      ],
+      "macroPopup": "climate",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "drenagem_ana.geojson",
+      "sourceSha256": "110d102d0ad49d9f2b2d405649a7163e0e5a19855b3f98255c09cad0765bad73",
+      "outputSha256": "110d102d0ad49d9f2b2d405649a7163e0e5a19855b3f98255c09cad0765bad73",
+      "sourceBytes": 3465,
+      "outputBytes": 3465,
+      "features": 3,
+      "coordinates": 69,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.16890593398101,
+        -22.685534737129135,
+        -46.1417853,
+        -22.6233863
+      ],
+      "macroPopup": "ana-hydrography",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "geologia_ibge.geojson",
+      "sourceSha256": "362453ceb7da0332f14ead00ce1de41ea5fbc95c6c3c49d0759bee807afb8fda",
+      "outputSha256": "362453ceb7da0332f14ead00ce1de41ea5fbc95c6c3c49d0759bee807afb8fda",
+      "sourceBytes": 199722,
+      "outputBytes": 199722,
+      "features": 1,
+      "coordinates": 5195,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.466557528,
+        -22.9199991519999,
+        -45.2067110199999,
+        -22.289499277999898
+      ],
+      "macroPopup": "geology",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "geomorfologia_ibge.geojson",
+      "sourceSha256": "c0392c323989f23f687e7d159565a7c222404c13d5d803b6eec3d4cb72aab3ca",
+      "outputSha256": "c0392c323989f23f687e7d159565a7c222404c13d5d803b6eec3d4cb72aab3ca",
+      "sourceBytes": 29301,
+      "outputBytes": 29301,
+      "features": 1,
+      "coordinates": 625,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.681765788760096,
+        -22.9126724009106,
+        -45.9809446272925,
+        -22.2130102056564
+      ],
+      "macroPopup": "geomorphology",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "info_municipio.geojson",
+      "sourceSha256": "3c447089764ea36414ba0c761457b75e95b0ef5ef557749638fa70b8b65aecdf",
+      "outputSha256": "3c447089764ea36414ba0c761457b75e95b0ef5ef557749638fa70b8b65aecdf",
+      "sourceBytes": 8868,
+      "outputBytes": 8868,
+      "features": 1,
+      "coordinates": 168,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.30822099959943,
+        -22.8065909965772,
+        -46.124420774898795,
+        -22.6076829969727
+      ],
+      "macroPopup": "municipality",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "microbacia_ana.geojson",
+      "sourceSha256": "f6cd5dba7af2380fb9b54a52dfe6c87ff3ca7106efe21457822ab8b0d472deba",
+      "outputSha256": "f6cd5dba7af2380fb9b54a52dfe6c87ff3ca7106efe21457822ab8b0d472deba",
+      "sourceBytes": 76854,
+      "outputBytes": 76854,
+      "features": 1,
+      "coordinates": 2565,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.1719609,
+        -22.6869074,
+        -46.133893,
+        -22.6197574
+      ],
+      "macroPopup": "ana-basin",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "pedologia_ibge.geojson",
+      "sourceSha256": "03246aeef80757042b43f963673b6328011f79fe98e6a96584feb11cdf024abc",
+      "outputSha256": "03246aeef80757042b43f963673b6328011f79fe98e6a96584feb11cdf024abc",
+      "sourceBytes": 106995,
+      "outputBytes": 106995,
+      "features": 1,
+      "coordinates": 2327,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.2453822278142,
+        -22.9008668383013,
+        -45.9233334682613,
+        -22.4946225424184
+      ],
+      "macroPopup": "soils",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "simu_drenagem.geojson",
+      "sourceSha256": "1068312aced31cf7caba11a507ab4960a2d3c46091d0693463d6a69a4b60f504",
+      "outputSha256": "1068312aced31cf7caba11a507ab4960a2d3c46091d0693463d6a69a4b60f504",
+      "sourceBytes": 186932,
+      "outputBytes": 186932,
+      "features": 327,
+      "coordinates": 1922,
+      "positionsWithZ": 1922,
+      "bounds": [
+        -46.171014468951675,
+        -22.68619461526064,
+        -46.13517168911531,
+        -22.621785409389265
+      ],
+      "macroPopup": "simulated-drainage",
+      "ignoreAltitude": true,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "simu_microbacia.geojson",
+      "sourceSha256": "d1b7940707cf864b7c78ef53cc2d585077ecbb5eb5acaf95d5d43ad41f1c759b",
+      "outputSha256": "d1b7940707cf864b7c78ef53cc2d585077ecbb5eb5acaf95d5d43ad41f1c759b",
+      "sourceBytes": 143122,
+      "outputBytes": 143122,
+      "features": 19,
+      "coordinates": 3043,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.17168820541477,
+        -22.68686835172373,
+        -46.13395896348175,
+        -22.6197642
+      ],
+      "macroPopup": "simulated-basins",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "vegetacao_ibge.geojson",
+      "sourceSha256": "b6d4533f53b8993c3a146f69218c886da9a8ace6238eab419b37a5cd31e456ff",
+      "outputSha256": "b6d4533f53b8993c3a146f69218c886da9a8ace6238eab419b37a5cd31e456ff",
+      "sourceBytes": 169544,
+      "outputBytes": 169544,
+      "features": 1,
+      "coordinates": 4206,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.490503706,
+        -22.9211979149999,
+        -45.5745037,
+        -22.3012088909999
+      ],
+      "macroPopup": "vegetation",
+      "ignoreAltitude": false,
+      "notes": [
+        "Cópia byte a byte, sem alteração de geometria, coordenadas, atributos ou IDs."
+      ]
+    },
+    {
+      "file": "curvas_10m.geojson",
+      "sourceSha256": "b2bbd9d24f0d4b88ce799c6f905cce8f19d87d2bd73881d965770d48c9969bdc",
+      "outputSha256": "d8f16816c3123ce88b5a06e038d42c3e28443a7c25d8717771b0bdc603dee174",
+      "sourceBytes": 419808,
+      "outputBytes": 222357,
+      "features": 159,
+      "coordinates": 7433,
+      "positionsWithZ": 0,
+      "bounds": [
+        -46.1716781,
+        -22.6868684,
+        -46.133959,
+        -22.6197947
+      ],
+      "macroPopup": null,
+      "ignoreAltitude": false,
+      "notes": [
+        "159 feições; id sequencial 1–159 e nome.",
+        "Coordenadas em 2D (Z removido), arredondadas para 7 casas.",
+        "Curvas: ELEVATION renomeado para cota_m; 34 de 159 são mestras (a cada 50 m).",
+        "nome: nenhum NAME/name na entrada; 159 com o padrão (ex.: \"Curva 980 m\")."
+      ],
+      "featureMapping": [
+        {
+          "source_ref": "curvas_10m.geojson:1",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "980 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:2",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1070 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:3",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1430 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:4",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1120 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:5",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1430 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:6",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:7",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:8",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1430 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:9",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:10",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:11",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1170 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:12",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1430 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:13",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1390 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:14",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1390 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:15",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1210 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:16",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:17",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:18",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1030 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:19",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1030 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:20",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1080 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:21",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "990 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:22",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "990 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:23",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1150 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:24",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1150 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:25",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:26",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:27",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:28",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:29",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:30",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1340 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:31",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1420 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:32",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1420 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:33",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1420 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:34",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1250 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:35",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1420 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:36",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1250 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:37",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:38",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:39",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:40",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:41",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:42",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:43",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1460 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:44",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1500 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:45",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1390 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:46",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:47",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:48",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:49",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:50",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:51",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:52",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:53",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1490 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:54",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1450 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:55",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1490 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:56",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1490 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:57",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1130 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:58",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1130 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:59",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1130 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:60",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:61",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:62",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:63",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1130 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:64",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1160 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:65",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1230 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:66",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1310 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:67",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1150 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:68",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1110 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:69",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:70",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:71",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1400 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:72",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:73",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1400 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:74",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:75",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:76",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1480 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:77",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1400 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:78",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1020 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:79",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1210 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:80",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "990 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:81",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1010 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:82",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1090 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:83",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1050 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:84",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1140 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:85",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:86",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:87",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1140 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:88",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:89",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1140 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:90",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1140 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:91",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:92",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:93",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:94",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1320 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:95",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1180 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:96",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1300 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:97",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1180 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:98",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1180 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:99",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1060 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:100",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1180 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:101",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:102",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1190 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:103",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1240 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:104",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:105",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1190 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:106",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1190 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:107",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1370 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:108",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:109",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:110",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:111",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1330 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:112",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1370 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:113",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1270 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:114",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1040 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:115",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1190 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:116",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1410 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:117",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1410 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:118",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1410 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:119",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:120",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:121",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:122",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:123",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:124",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:125",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1350 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:126",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:127",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1280 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:128",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1360 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:129",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1360 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:130",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1360 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:131",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1360 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:132",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1360 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:133",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:134",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:135",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1200 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:136",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1200 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:137",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1220 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:138",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1260 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:139",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1290 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:140",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1290 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:141",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1380 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:142",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1290 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:143",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1440 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:144",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:145",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:146",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:147",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:148",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1100 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:149",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1380 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:150",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1220 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:151",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1380 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:152",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1440 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:153",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1440 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:154",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1440 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:155",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1440 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:156",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:157",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1470 m",
+            "CLOSED_CONTOUR": "YES"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:158",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1150 m"
+          }
+        },
+        {
+          "source_ref": "curvas_10m.geojson:159",
+          "sourceFeatureId": null,
+          "originalProperties": {
+            "ELEVATION": "1000 m"
+          }
+        }
+      ],
+      "popupPending": "Não existe preset Macro para curvas no template. Não reutilizar um preset de outro tema nem criar popup por projeto. Definir a integração do popup separadamente; arquivo preparado pode ser publicado normalmente."
+    }
+  ]
+}

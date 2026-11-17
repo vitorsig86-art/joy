@@ -25,6 +25,8 @@ export type LayerSource =
   | { format: "3d-tiles"; source: "ion"; assetId: number; tokenEnv?: string; clipping?: ModelClippingConfig; heightOffsetMeters?: number; terrainCutout?: boolean }
   | {
     format: "ion-world-imagery";
+    // Optional public Cesium ion imagery asset; omitted keeps Bing Aerial with labels.
+    assetId?: number;
     fallback: { url: string; credit: string; maximumLevel: number };
   }
   | {
@@ -122,7 +124,7 @@ export interface VectorPopupAction {
 // Curated popups of the macro context layers (src/projects/macroPopups.ts).
 export type MacroPopupPreset =
   | "municipality" | "climate" | "geology" | "geomorphology" | "soils" | "vegetation"
-  | "ana-hydrography" | "ana-basin" | "simulated-basins" | "simulated-drainage";
+  | "ana-hydrography" | "ana-basin" | "simulated-basins" | "simulated-drainage" | "macro-contours";
 
 export interface VectorPopupConfig {
   actions?: VectorPopupAction[];

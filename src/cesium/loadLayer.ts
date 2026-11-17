@@ -1,7 +1,7 @@
 import { createWorldImageryAsync, IonWorldImageryStyle, Cartesian3, Cesium3DTileset, Color, ColorMaterialProperty, ConstantProperty, GeoJsonDataSource, ImageryLayer, JulianDate, Math as CesiumMath, PolylineGraphics, Rectangle, UrlTemplateImageryProvider, Viewer, WebMercatorTilingScheme, type Entity, type PolygonHierarchy, type TerrainProvider } from "cesium";
 import type { ProjectLayerConfig } from "../projects/types";
 import { registerVectorPopup } from "./vectorPopup";
-import { IonResource } from "cesium";
+import { IonImageryProvider, IonResource } from "cesium";
 import { applyModelClipping } from "./modelClipping";
 import { createModelHeightAdjustment } from "./modelHeight";
 import { NeverTileDiscardPolicy } from "cesium";
@@ -117,11 +117,13 @@ export async function loadLayer(layer: ProjectLayerConfig): Promise<LoadedLayer>
     case "ion-world-imagery": {
       try {
         // Uses Ion.defaultAccessToken, set from VITE_CESIUM_ION_TOKEN by createViewer.
-        const provider = await createWorldImageryAsync({ style: IonWorldImageryStyle.AERIAL_WITH_LABELS });
+        const provider = layer.source.assetId === undefined
+          ? await createWorldImageryAsync({ style: IonWorldImageryStyle.AERIAL_WITH_LABELS })
+          : await IonImageryProvider.fromAssetId(layer.source.assetId);
         return new ImageryLayer(provider);
       } catch {
         // Never log credential-bearing provider errors or metadata URLs.
-        console.warn("Bing Aerial unavailable · OpenStreetMap fallback");
+        console.warn(`${layer.name} unavailable · OpenStreetMap fallback`);
         return createBasemapFallback(layer);
       }
     }

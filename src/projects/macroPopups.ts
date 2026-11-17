@@ -21,6 +21,11 @@ const typologyLabels: Record<string, string> = {
 };
 
 export const macroPopups: Record<MacroPopupPreset, VectorPopupConfig> = {
+  // Curvas de contexto regional: cota mantida do levantamento, sem inferir datum.
+  "macro-contours": {
+    title: "Curva de nível",
+    fields: [{ property: "cota_m", label: "Cota da fonte", unit: "m", decimals: 0 }],
+  },
   // Contexto municipal — IBGE.
   "municipality": {
     title: "Contexto Municipal IBGE",
