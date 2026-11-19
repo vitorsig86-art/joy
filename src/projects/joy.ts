@@ -118,7 +118,7 @@ const microLayers: ProjectLayerConfig[] = [
     },
   },
   {
-    id: "micro-perimetro", name: "Perímetro do imóvel", description: "Perímetro conforme arquivo fornecido; não substitui documento cadastral", group: "vector", kind: "property-boundary", defaultVisible: false, panelOrder: 1,
+    id: "micro-perimetro", name: "Perímetro do imóvel", description: "Perímetro conforme arquivo fornecido; não substitui documento cadastral", group: "vector", kind: "property-boundary", defaultVisible: true, panelOrder: 1,
     source: { format: "geojson", url: `${r2}/geojson/micro/peri_imovel.geojson`, autoZoom: false, ignoreAltitude: true, uniqueFeatureIds: true,
       style: { stroke: "#FFD400", strokeWidth: 2.5, fillOpacity: 0, clampToGround: true, zIndex: 35 },
       popup: { titleProperty: "nome_area", fields: [
